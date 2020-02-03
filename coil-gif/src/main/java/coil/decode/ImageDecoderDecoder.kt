@@ -56,8 +56,8 @@ class ImageDecoderDecoder : Decoder {
                     val multiplier = DecodeUtils.computeSizeMultiplier(
                         srcWidth = infoSize.width,
                         srcHeight = infoSize.height,
-                        destWidth = size.width,
-                        destHeight = size.height,
+                        dstWidth = size.width,
+                        dstHeight = size.height,
                         scale = options.scale
                     )
                     if (multiplier < 1) {
